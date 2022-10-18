@@ -18,6 +18,8 @@ After tweaking the path for the Paprika export, just run (you need `gmake`, too)
 gmake book
 ```
 
+<img src="pic.jpg" width=500/>
+
 ### TODO
 
 - [ ] There are some broken _itemprop_ tags leftover from the Markdown conversion. Recipes are readable but a bit ugly.
