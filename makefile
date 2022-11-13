@@ -17,3 +17,6 @@ $(t)/recipes.epub: $(t)/recipes.md
 > pandoc -o recipes.epub recipes.md --from=gfm --to=epub --toc --metadata title="Paprika export `(date +"%Y%m%d")`" --metadata author="-" --toc-depth 1 --epub-cover-image $(here)/recipes-book.jpg
 
 book: $(t)/recipes.epub
+	
+lint:
+> proselint README.md

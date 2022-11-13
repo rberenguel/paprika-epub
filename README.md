@@ -20,7 +20,7 @@ gmake book
 
 <img src="pic.jpg" width=500/>
 
-### TODO
+### Pending tasks
 
 - [ ] There are some broken _itemprop_ tags leftover from the Markdown conversion. Recipes are readable but a bit ugly.
 - [ ] Styling is not ideal: ingredients should be closer together. This can be tweaked with some `awk`.
